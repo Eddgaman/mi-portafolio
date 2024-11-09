@@ -3,17 +3,17 @@ import os
 runProgram = True
 todolist = []
 
-# Función para mostrar las opciones del menu
 def showMenuOptions():
     print("")
     print("")
     print("Por favor seleccione una opción:")
     print("")
     print("")
-    print("1. Crear un tarea")
+    print("1. Crear un tarea ya")
     print("2. Marcar como realizada una tarea")
     print("3. Borrar una tarea")
     print("4. Salir")
+    print()
 
 # Función para mostrar todas las tareas
 def showTodoList():
